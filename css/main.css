@@ -24,17 +24,19 @@ body {
 /****** HEADER ******/
 
 header {
-    height: 800px;
-    background: url('../img/full-background.png');
-    background-size: cover;
-    background-position: center;
+    height: 600px;
+    background-image:linear-gradient(to bottom right, white,#c49075);
 }
 
 header h1 {
-    font-family: 'Lora', serif;
-    font-size: 30px;
-    color: #bbc085;
-    padding: 65px 0 65px 25px;
+    font-family: 'Waterfall', cursive;
+    font-size: 75px;
+    color: #9b9b9b;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */\
+    -moz-transform: rotate(-20deg); /*Mozilla */
+     transform: rotate(-20deg); 
+    padding: 0px 0 65px 25px;
 }
 nav {
     float: right;
