@@ -24,23 +24,21 @@ body {
 /****** HEADER ******/
 
 header {
-    height: 600px;
-    background-image:linear-gradient(to bottom right, white,#c49075);
+    height: 585px;
+    background: url(../img/green-vine.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 header h1 {
-    font-family: 'Waterfall', cursive;
-    font-size: 75px;
+    font-family: 'Lora', serif;
+    font-size: 25px;
     color: #9b9b9b;
-    -ms-transform: rotate(-20deg); /* IE 9 */
-    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */\
-    -moz-transform: rotate(-20deg); /*Mozilla */
-     transform: rotate(-20deg); 
-    padding: 0px 0 65px 25px;
+    padding: 10px 25px;
 }
 nav {
     float: right;
-    padding: 75px 25px;
+    padding: 50px 60px 45px 25px;
 }
 nav ul li{
     display: inline-block;
@@ -48,18 +46,18 @@ nav ul li{
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 18px;
-    color: #828282;
+    font-size: 20px;
+    color: #c49075;
     padding-left: 80px;
 }
 header h2 {
-    width: 1000px;
-    clear: both;
+    width: 800px;
+    clear:both;
     font-family: 'Lora', serif;
-    font-size: 72px;
+    font-size: 70px;
     line-height: 80px;
     color: #9b9b9b;
-    padding: 20px 0 20px 25px;
+    padding: 30px 25px 20px 375px;
 }
 header h2 span {
     color: #2b2b2b;
