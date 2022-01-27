@@ -26,17 +26,19 @@ body {
 /****** HEADER ******/
 
 header {
-    height: 585px;
+    max-width: 100%;
+    max-height: auto;
     background-image: url(../img/green-vine2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 header h1 {
+    float: right;
     font-family: 'Lora', serif;
     font-size: 25px;
     color: #9b9b9b;
-    padding: 40px 25px 10px 60px;
+    padding: 40px 20px 0px 0px;
 }
 nav {
     float: right;
