@@ -26,8 +26,8 @@ body {
 /****** HEADER ******/
 
 header {
+    min-height: 600px;
     max-width: 100%;
-    max-height: auto;
     background-image: url(../img/green-vine2.jpg);
     background-size: cover;
     background-position: center;
@@ -63,8 +63,18 @@ header h2 {
     color: #9b9b9b;
     padding: 30px 0px 20px 420px;
 }
+/* The animation code */
+@keyframes example {
+    from {color: #9b9b9b;}
+    to {color: black;}
+  }
 header h2 span {
-    color: #2b2b2b;
+    color: black;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
 }
 
 /****** ABOUT ******/
