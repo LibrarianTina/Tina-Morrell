@@ -1,0 +1,132 @@
+#webpage {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    background-image: url(./img/green-vine2.jpg);
+    min-height: 30em;
+    background-size: cover;
+    background-position: center;
+}
+
+#header-body {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+}
+#menu h1 {
+    font-family: 'Lora', serif;
+    font-size: 1.8em;
+    color: #9b9b9b;
+    text-align: left;
+    margin-left: 2%;
+}
+ul {
+    display: block;
+    padding-inline-start: 0;
+}
+nav ul {
+    list-style: none;
+    text-align: right;
+    line-height: 2em;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #c49075;
+    
+}
+
+#greeting h2 {
+    max-width: 760px;
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    color: #9b9b9b;
+    margin-left: 35%;
+}
+/* The animation code */
+@keyframes example {
+    from {color: #9b9b9b;}
+    to {color: black;}
+  }
+#greeting h2 span {
+    color: black;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+#statement h2 {
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    padding-left: 0px;
+    color: #c49075;
+    margin-left: 2%;
+}
+#statement p {
+    font-size: 1.5em;
+    color: #7f7f7f; 
+    margin-left: 2%;
+
+}
+#contact {
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#contact-img {
+    max-width: 45vw;
+    border-width: 0px 4px 4px 4px; 
+    border-style: solid;
+    border-color: #ffffff; 
+}
+#social-media {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+}
+#contact #socialmedia-header #email-header {
+    font-weight: bold;
+    font-size: 2em;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 2em;
+}
+#contact ul li {
+    list-style: none;
+    display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
+@media all and (min-width:768px) {
+    #contact-img {
+        border-width: 0px 4px 0px 4px; 
+    }
+}
+@media all and (min-width:1200px) {
+    #greeting h2 {
+        font-size: 3em;
+    }
+    nav ul li a {
+        font-size: 2em;
+    }
+    #socialmedia-header {
+        margin-top: 8vw;
+    }
+    nav ul {
+        line-height: 2.5em;
+    }
+}
