@@ -93,6 +93,8 @@ nav ul li a {
 #contact h2 {
     font-family: 'Lora', serif;
     font-size: 1.5em;
+    color: black;
+    margin-left: 0;
 }
 #contact #socialmedia-header #email-header {
     font-weight: bold;
