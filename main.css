@@ -117,13 +117,13 @@ nav ul li a {
     #contact-img {
         border-width: 0px 4px 0px 4px; 
     }
+    #social-media {
+        margin-top: 2%;
+    }
 }
 @media all and (min-width:1200px) {
     #greeting h2 {
         font-size: 3.2em;
-    }
-    #socialmedia-header {
-        margin-top: 8vw;
     }
     nav ul li {
         line-height: 1.5em;
@@ -134,4 +134,7 @@ nav ul li a {
     #menu h1 {
         font-size: 1.8em;
     }
+    #socialmedia-header {
+        margin-top: 8vw;
+    } 
 }
