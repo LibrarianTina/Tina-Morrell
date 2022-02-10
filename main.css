@@ -4,48 +4,48 @@
 }
 
 #header {
-    background-image: url(./img/green-vine2.jpg);
+    background-image: url(./img/green-vine3.jpg);
     min-height: 30em;
     background-size: cover;
     background-position: center;
 }
-
 #header-body {
     display: flex;
     flex-direction: column;
     padding-right: 2%;
 }
+#menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+}
 #menu h1 {
     font-family: 'Lora', serif;
-    font-size: 1.8em;
+    font-size: 1.4em;
     color: #9b9b9b;
-    text-align: left;
     margin-left: 2%;
 }
 ul {
     display: block;
     padding-inline-start: 0;
 }
-nav ul {
+nav ul li {
     list-style: none;
-    text-align: right;
     line-height: 2em;
 }
-
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.3em;
     color: #c49075;
     
 }
-
 #greeting h2 {
     max-width: 760px;
     font-family: 'Lora', serif;
     font-size: 2em;
     color: #9b9b9b;
-    margin-left: 35%;
+    margin-left: 40%;
 }
 /* The animation code */
 @keyframes example {
@@ -104,7 +104,7 @@ nav ul li a {
     text-decoration: none;
     color: #c49075;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 #contact ul li {
     list-style: none;
@@ -120,15 +120,18 @@ nav ul li a {
 }
 @media all and (min-width:1200px) {
     #greeting h2 {
-        font-size: 3em;
-    }
-    nav ul li a {
-        font-size: 2em;
+        font-size: 3.2em;
     }
     #socialmedia-header {
         margin-top: 8vw;
     }
-    nav ul {
-        line-height: 2.5em;
+    nav ul li {
+        line-height: 1.5em;
+        display:block;
+        width:120px;
+        float:left;
+    }
+    #menu h1 {
+        font-size: 1.8em;
     }
 }
