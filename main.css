@@ -4,7 +4,7 @@
 }
 
 #header {
-    background-image: url(img/blue-flower3.jpg);
+    background-image: url(./img/blue-flower3.jpg);
     min-height: 30em;
     background-size: cover;
     background-position: center;
