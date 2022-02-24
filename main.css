@@ -4,7 +4,7 @@
 }
 
 #header {
-    background-image: url(./img/green-vine3.jpg);
+    background-image: url(img/blue-flower3.jpg);
     min-height: 30em;
     background-size: cover;
     background-position: center;
@@ -40,6 +40,10 @@ nav ul li a {
     color: #c49075;
     
 }
+a:hover {
+    color: black;
+}
+
 #greeting h2 {
     max-width: 760px;
     font-family: 'Lora', serif;
